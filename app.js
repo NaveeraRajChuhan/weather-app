@@ -26,4 +26,7 @@ if("sunny"){
     document.write("<h1>" + coldWeather + "</h1>" + "<img src='' alt=''>")
 
     
+}else if ("normal"){
+    document.write("<h1>" + normalWeather + "</h1>" + "<img src='' alt=''>")
+
 }
