@@ -7,9 +7,7 @@ let coldWeather ="cold"
 let cloudyWeather ="cloudy"
 let rainyWeather ="rainy"
 let stormyWeather ="stormy"
-let snoweyWeather ="snoey"
-
-
+let snoweyWeather ="snowey"
 
 
 if("sunny"){
@@ -28,5 +26,14 @@ if("sunny"){
     
 }else if ("cloudy"){
     document.write("<h1>" + cloudyWeather + "</h1>" + "<img src='' alt=''>")
+
+}else if ("rainy"){
+    document.write("<h1>" + rainyWeather + "</h1>" + "<img src='' alt=''>")
+
+}else if ("stormy"){
+    document.write("<h1>" + stormyWeather + "</h1>" + "<img src='' alt=''>")
+
+}else if ("snowey"){
+    document.write("<h1>" + snoweyWeather + "</h1>" + "<img src='' alt=''>")
 
 }
